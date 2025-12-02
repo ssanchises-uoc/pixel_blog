@@ -15,11 +15,12 @@ type BlogPost = {
   id: number;
   slug: string;
   title: string;
-  content: string;
+  excerpt: string;
   author: string;
   date: string;
   category: string;
   color: string;
+  content?: string; // 👈 ahora es opcional
 };
 
 type BlogPostClientProps = {
@@ -107,7 +108,7 @@ export default function BlogPostClient({ post }: BlogPostClientProps) {
         </div>
 
         <div className="p-6 md:p-12 post-content max-w-none">
-          <div dangerouslySetInnerHTML={{ __html: post.content }} />
+          <div dangerouslySetInnerHTML={{ __html: post.content ?? "" }} />
           <div className="my-8 bg-card border-4 border-secondary p-6 relative">
             <div className="absolute -top-3 left-6 bg-secondary text-secondary-foreground px-2 font-headline text-[8px]">
               NPC DICE:
