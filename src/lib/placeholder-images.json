@@ -1,0 +1,70 @@
+{
+  "placeholderImages": [
+    {
+      "id": "1",
+      "description": "Chrono Trigger, EarthBound y la época dorada del rol japonés en 16 bits.",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "retro gaming"
+    },
+    {
+      "id": "2",
+      "description": "Cómo los indies mantienen viva la estética de los 90 con tecnología moderna.",
+      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "arcade machine"
+    },
+    {
+      "id": "3",
+      "description": "Analizando la banda sonora de Donkey Kong Country y su impacto ambiental.",
+      "imageUrl": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "cassette tape"
+    },
+    {
+      "id": "4",
+      "description": "La Star Road y otros misterios ocultos en el mapa de Dinosaur Land.",
+      "imageUrl": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "game controller"
+    },
+    {
+      "id": "gallery-1",
+      "description": "Game Room Setup",
+      "imageUrl": "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "game room"
+    },
+    {
+      "id": "gallery-2",
+      "description": "Neon Controller",
+      "imageUrl": "https://images.unsplash.com/photo-1531297461136-821f22e984d7?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "neon controller"
+    },
+    {
+      "id": "gallery-3",
+      "description": "Arcade Corner",
+      "imageUrl": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "arcade corner"
+    },
+    {
+      "id": "gallery-4",
+      "description": "Handheld Collection",
+      "imageUrl": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "handheld console"
+    },
+    {
+      "id": "gallery-5",
+      "description": "Cartridge Stack",
+      "imageUrl": "https://images.unsplash.com/photo-1612287230217-969b659c94f1?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "game cartridges"
+    },
+    {
+      "id": "gallery-6",
+      "description": "CRT Display",
+      "imageUrl": "https://images.unsplash.com/photo-1551103782-8ab07afd45c1?auto=format&fit=crop&q=80&w=800",
+      "imageHint": "crt tv"
+    },
+    {
+      "id": "about-avatar",
+      "description": "Avatar for about page",
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?auto=format&fit=crop&q=80&w=400",
+      "imageHint": "code screen"
+    }
+  ]
+}
