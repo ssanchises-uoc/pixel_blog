@@ -119,7 +119,7 @@ export default function BlogPostClient({ post }: BlogPostClientProps) {
           </div>
         </div>
 
-        <div className="bg-card p-6 border-t-4 border-black">
+{/*         <div className="bg-card p-6 border-t-4 border-black">
           <h3 className="text-white font-headline text-xs mb-6">
             COMENTARIOS (1)
           </h3>
@@ -152,7 +152,7 @@ export default function BlogPostClient({ post }: BlogPostClientProps) {
               </RetroButton>
             </div>
           </div>
-        </div>
+        </div> */}
       </article>
     </div>
   );
