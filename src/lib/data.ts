@@ -65,16 +65,16 @@ export const GALLERY_IMAGES = [
 
 export const MUSIC_TRACKS = [
   { 
-    id: '00', title: 'INTRO THEME', type: 'BGM', duration: 'LOOP', 
-    sound: { type: 'file', path: '/sounds/intro-theme.mp3' }
+    id: '00', title: 'PIXEL BLASTER', type: 'BGM', duration: '03:26', 
+    sound: { type: 'file', path: '/sounds/Pixel_Blaster.mp3' }
   },
   {
-    id: '01', title: 'BOSS BATTLE', type: 'BGM', duration: 'LOOP',
-    sound: { type: 'file', path: '/sounds/boss-battle.mp3' }
+    id: '01', title: 'LABYRINTH OF SHADOWS', type: 'BGM', duration: '01:26',
+    sound: { type: 'file', path: '/sounds/Labyrinth_Shadows.mp3' }
   },
   { 
-    id: '02', title: 'GAME OVER', type: 'SFX', duration: '00:03', 
-    sound: { type: 'file', path: '/sounds/game-over.mp3' }
+    id: '02', title: 'PIXEL RUSH', type: 'SFX', duration: '03:44', 
+    sound: { type: 'file', path: '/sounds/Pixel_Rush.mp3' }
   },
   { 
     id: '03', title: 'JUMP', type: 'SFX', duration: '00:01', 

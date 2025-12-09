@@ -4,5 +4,5 @@ Este es un blog con temática retro inspirado en la era de los 16 bits, construi
 
 ## Ver
 
-Para empezar a explorar el proyecto, echa un vistazo a `https://pixel-blog-six.vercel.app/`.
+Para empezar a explorar el proyecto, echa un vistazo a `https://pixel-blog-kohl.vercel.app/`.
 
