@@ -2,27 +2,27 @@
   "placeholderImages": [
     {
       "id": "1",
-      "description": "Chrono Trigger, EarthBound y la época dorada del rol japonés en 16 bits.",
-      "imageUrl": "/images/image_01.png",
+      "description": "La Historia de los Videojuegos Retro de 16 Bits: La Era Dorada del Pixel",
+      "imageUrl": "/images/post_01.png",
       "imageHint": "retro gaming"
     },
     {
       "id": "2",
-      "description": "Cómo los indies mantienen viva la estética de los 90 con tecnología moderna.",
-      "imageUrl": "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-      "imageHint": "arcade machine"
+      "description": "Cómo Crear una Hoja de Sprites para Videojuegos 2D Pixel Art de 16 Bits",
+      "imageUrl": "/images/post_02.png",
+      "imageHint": "pixel art"
     },
     {
       "id": "3",
-      "description": "Analizando la banda sonora de Donkey Kong Country y su impacto ambiental.",
-      "imageUrl": "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&q=80&w=800",
-      "imageHint": "cassette tape"
+      "description": "Cómo una Herramienta de IA Puede Crear un Universo Pixel Art 2D de 16 Bits para tu Videojuego",
+      "imageUrl": "/images/post_03.png",
+      "imageHint": "pixel art"
     },
     {
       "id": "4",
-      "description": "La Star Road y otros misterios ocultos en el mapa de Dinosaur Land.",
-      "imageUrl": "https://images.unsplash.com/photo-1605901309584-818e25960b8f?auto=format&fit=crop&q=80&w=800",
-      "imageHint": "game controller"
+      "description": "Cómo Usar Godot para Crear Tu Primer Videojuego Pixel Art de 16 Bits (Parte 1)",
+      "imageUrl": "/images/post_04.png",
+      "imageHint": "godot"
     },
     {
       "id": "gallery-1",

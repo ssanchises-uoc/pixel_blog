@@ -27,8 +27,8 @@ export default function GalleryPage() {
     return (
         <div className="animate-in zoom-in-95 duration-500 py-8">
             <div className="text-center mb-12">
-                <h2 className="font-headline text-white text-2xl mb-4 text-shadow-pixel">GALERÍA DE <span className="text-accent">SPRITES</span></h2>
-                <p className="font-mono text-gray-400 text-sm">Colección de artefactos visuales recuperados.</p>
+                <h2 className="font-headline text-white text-2xl mb-4 text-shadow-pixel">GALERÍA DE <span className="text-accent">IMÁGENES</span></h2>
+                <p className="font-mono text-gray-400 text-sm">Colección de imagenes creadas con IA.</p>
             </div>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
                 {galleryImagesWithData.map((img, index) => (

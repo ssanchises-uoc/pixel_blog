@@ -41,6 +41,7 @@ export function Footer() {
                             <li><Link href="/" className="flex items-center gap-2 text-gray-300 hover:text-white"><span className="text-primary">&gt;</span> Inicio</Link></li>
                             <li><Link href="/blog" className="flex items-center gap-2 text-gray-300 hover:text-white"><span className="text-primary">&gt;</span> Blog</Link></li>
                             <li><Link href="/gallery" className="flex items-center gap-2 text-gray-300 hover:text-white"><span className="text-primary">&gt;</span> Galería</Link></li>
+                            <li><Link href="/sound-test" className="flex items-center gap-2 text-gray-300 hover:text-white"><span className="text-primary">&gt;</span> Sonidos</Link></li>
                             <li><Link href="/contact" className="flex items-center gap-2 text-gray-300 hover:text-white"><span className="text-primary">&gt;</span> Contacto</Link></li>
                         </ul>
                     </div>
@@ -79,7 +80,7 @@ export function Footer() {
                         )}
                         <div className="font-mono text-gray-500 text-xs mt-6">
                             <p>© 2025 PixelBlog.</p>
-                            <p className="flex items-center gap-1.5">Hecho con <Heart size={12} className="text-primary"/> por IA.</p>
+                            <p className="flex items-center gap-1.5">Hecho con <Heart size={12} className="text-primary"/> y con ayuda de IA.</p>
                         </div>
                     </div>
                 </div>

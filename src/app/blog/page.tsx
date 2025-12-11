@@ -24,7 +24,7 @@ export default function BlogPage() {
         <div className="animate-in fade-in duration-500 py-8">
             <div className="text-center mb-12">
                 <h2 className="font-headline text-white text-2xl mb-4 text-shadow-pixel">CATÁLOGO DE <span className="text-accent">CARTUCHOS</span></h2>
-                <p className="font-mono text-gray-400 text-sm">Archivo completo de conocimientos.</p>
+                <p className="font-mono text-gray-400 text-sm">Archivo completo de conocimientos creados con IA.</p>
             </div>
 
             <div className="flex flex-col md:flex-row gap-8">
