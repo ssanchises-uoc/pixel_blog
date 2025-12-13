@@ -1,6 +1,11 @@
+## Proyecto para la asignatura: IA generativa para la creación multimedia 2025 UOC
+# Autor: Santiago Sanchis Esparza
+
 # PixelBlog - Edición SNES
 
-Este es un blog con temática retro inspirado en la era de los 16 bits, construido con Next.js y estilizado con Tailwind CSS. Explora la nostalgia de los videojuegos a través de posts, una galería de imágenes y una banda sonora chiptune.
+Este es un blog con temática retro inspirado en la era de los 16 bits, construido con Next.js y estilizado con Tailwind CSS. 
+Galería de Recursos creados con herramientas de IA.
+Aprende a diseñar tus propios recursos para videojuegos con ayuda de herramientas de IA
 
 ## Ver
 

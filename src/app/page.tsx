@@ -23,10 +23,11 @@ export default function Home() {
           </span>
           <h1 className="font-headline text-2xl md:text-4xl mb-6 leading-relaxed text-shadow-pixel">
             BIENVENIDO AL <br />
-            <span className="text-secondary">MUNDO 1-1</span>
+            <span className="text-secondary">MUNDO 16 BITS</span>
           </h1>
           <p className="font-mono text-gray-300 mb-6 text-sm md:text-base leading-relaxed max-w-lg">
-            Explora la era dorada de los videojuegos a través de análisis, recuerdos y pixel art.
+            Repositorio de assets generados con IA y tutoriales técnicos enfocados en la creación de videojuegos 2D en pixel art estilo 16-bits (SNES/GBA).
+            Incluye sprites optimizados, control de paletas, animaciones coherentes, buenas prácticas para spritesheets y flujos de trabajo integrables en motores como Unity, Godot o GameMaker..
           </p>
           <div className="flex flex-wrap gap-4">
             <Link href="/blog">
@@ -41,7 +42,7 @@ export default function Home() {
       <section className="mb-12">
         <div className="flex items-center gap-4 mb-6">
           <div className="h-1 flex-1 bg-gray-700"></div>
-          <h2 className="font-headline text-white text-sm md:text-base">MUSEO DE PIXELS</h2>
+          <h2 className="font-headline text-white text-sm md:text-base">REPOSITORIO DE IMÁGENES</h2>
           <div className="h-1 flex-1 bg-gray-700"></div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
@@ -66,7 +67,7 @@ export default function Home() {
         <div className="text-center">
           <Link href="/gallery">
             <RetroButton variant="outline" onMouseEnter={() => playSfx("hover")}>
-              EXPLORAR COLECCIÓN COMPLETA
+              VER REPOSITORIO COMPLETO
             </RetroButton>
           </Link>
         </div>
@@ -79,13 +80,13 @@ export default function Home() {
         <div className="flex items-center gap-4 mb-6 relative z-10">
           <div className="w-2 h-2 bg-accent animate-pulse"></div>
           <h2 className="font-headline text-white text-sm md:text-base tracking-widest">
-            SOUND CHIP <span className="text-primary">FM-SYNTH</span>
+            CHIPTUNE <span className="text-primary">FM-SYNTH</span>
           </h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 relative z-10">
           <div className="flex flex-col justify-between">
             <p className="font-mono text-gray-400 text-xs mb-4 max-w-xs">
-              Escucha la banda sonora original chiptune compuesta para este blog.
+              Repositorio de música creada con IA.
             </p>
             <div>
               <Link href="/sound-test">
@@ -119,7 +120,7 @@ export default function Home() {
       <section>
         <div className="flex items-center gap-4 mb-8">
           <div className="h-1 flex-1 bg-gray-700"></div>
-          <h2 className="font-headline text-white text-sm md:text-base">ÚLTIMOS NIVELES</h2>
+          <h2 className="font-headline text-white text-sm md:text-base">ÚLTIMOS POSTS</h2>
           <div className="h-1 flex-1 bg-gray-700"></div>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

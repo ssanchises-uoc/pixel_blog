@@ -107,18 +107,55 @@ export const BLOG_POSTS = [
   author: "Admin",
   date: "2025-02-17",
   color: "#3FA96E"
-  }
+  },
+  {
+  id: 5,
+  slug: "crear-musica-chiptune-ia-8-16-bits",
+  title: "Cómo Crear Música Chiptune de 8 y 16 Bits con Inteligencia Artificial",
+  excerpt: "Aprende paso a paso a generar melodías retro estilo chiptune usando herramientas de inteligencia artificial, ideales para videojuegos pixel art.",
+  content:`
+    <p>La música chiptune es uno de los elementos más icónicos de los videojuegos clásicos. Desde los sintetizadores simples de 8 bits de la NES hasta las vibrantes composiciones de 16 bits de Super Nintendo o Sega Mega Drive, este estilo musical marcó a toda una generación. Hoy, gracias a la inteligencia artificial, es posible crear melodías chiptune en cuestión de minutos, incluso sin conocimientos avanzados de composición musical. En este tutorial te guiaré paso a paso para que puedas generar tus propias pistas retro para videojuegos, cinemáticas, escenas de menú o incluso para ambientar tu universo pixel art.</p>
+    <h3>¿Qué es exactamente la música chiptune?</h3>
+    <p>El chiptune es un estilo musical creado originalmente por las limitaciones de hardware de las consolas y microordenadores retro. Los compositores debían trabajar con canales limitados, formas de onda puras (como cuadrada, triangular o de diente de sierra), y un rango reducido de efectos. Pero esas limitaciones se convirtieron en una estética propia: melodías pegadizas, ritmos repetitivos y un sonido sintético inconfundible.</p>
+    <p>Mientras que el sonido de 8 bits se caracteriza por su crudeza y simplicidad, la música de 16 bits incorporó canales adicionales, mejores chips FM y posibilidades más amplias de armonía. Hoy podemos recrear ambos estilos gracias a modelos de IA entrenados en miles de ejemplos clásicos.</p>
+    <h3>Herramientas de IA para generar música chiptune</h3>
+    <p>Existen diversas herramientas basadas en IA que permiten generar pistas estilo retro. Algunas funcionan por texto (prompt), otras por ejemplo de audio, y otras combinan ambas técnicas. Entre las más populares encontramos:</p>
+    <p><b>• Modelos generativos basados en texto:</b> Permiten escribir un prompt como \"melodía 8 bits estilo Mega Man\" o \"tema épico estilo SNES\" y generan música automáticamente.</p>
+    <p><b>• IAs con entrenamiento específico en chiptune:</b> Algunas plataformas incluyen presets como NES Pulse, FM Sega Genesis o SNES Orchestral Chips, lo que facilita obtener resultados auténticos sin ajustes técnicos complejos.</p>
+    <p><b>• Herramientas híbridas:</b> Permiten cargar una melodía existente y convertirla a estilo chiptune, manteniendo su estructura pero adaptándola al sonido retro, ideal para reimaginar música moderna al estilo 8/16 bits.</p>
+    <h3>Construyendo tu primera pista: el arte del prompt musical</h3>
+    <p>La clave para generar buena música chiptune con IA está en saber escribir prompts efectivos. La descripción debe incluir el estilo, el estado de ánimo y la referencia técnica. Por ejemplo:</p>
+    <p>• \"Chiptune 8 bits alegre, ritmo rápido, estilo plataformas, con melodía principal marcada y acompañamiento minimalista.\"</p>
+    <p>• \"Tema 16 bits con estilo RPG SNES, atmósfera misteriosa, capas de arpegios y percusión electrónica suave.\"</p>
+    <p>• \"Melodía FM estilo Sega Mega Drive, energía alta, inspiración en Streets of Rage.\"</p>
+    <p>La IA interpretará estos elementos para generar una pista que se acerque al estilo deseado. Una buena práctica consiste en pedir variaciones: la IA puede generar 5, 10 o 20 pistas similares, entre las cuales siempre se encuentra alguna joya inesperada.</p>
+    <h3>Cómo adaptar la música generada a tu videojuego</h3>
+    <p>Una vez generada la pista, es momento de prepararla para integrarla en tu juego 2D. La mayoría de motores como Godot, Unity o GameMaker aceptan formatos como WAV y OGG, aunque OGG suele ser la mejor opción por su balance entre calidad y peso. Antes de exportar, revisa los siguientes aspectos:</p>
+    <p><b>• Loop perfecto:</b> Muchas pistas chiptune están diseñadas para repetirse sin cortes. Puedes ajustar el loop en un editor como Audacity o incluso usar herramientas de IA que detectan automáticamente el punto exacto de repetición.</p>
+    <p><b>• Ecualización ligera:</b> Aunque la IA genera sonido retro, a veces es útil aplicar pequeños ajustes para suavizar frecuencias agudas o realzar ciertas notas.</p>
+    <p><b>• Conversión del tempo:</b> Algunos juegos requieren tempos exactos para mecánicas sincronizadas. Asegúrate de ajustar BPM si tu gameplay depende del ritmo.</p>
+    <p>Además, es una buena idea dividir la música en secciones (intro, loop, jingle) para adaptarla mejor al flujo del jugador. Muchos juegos clásicos usaban intros breves seguidas de loops infinitos para lograr inmersión continua.</p>
+    <h3>Potencia tu creatividad combinando IA con edición manual</h3>
+    <p>Aunque la IA puede generar música sorprendentemente buena, los mejores resultados siempre se logran combinando su potencia con la intervención creativa del desarrollador. Puedes usar un tracker tradicional como Famitracker, Deflemask o MilkyTracker para ajustar notas, efectos y patrones, manteniendo un control total sobre el sonido final.</p>
+    <p>Este flujo de trabajo mixto —IA para generar ideas, edición manual para pulir resultados— te permitirá obtener una banda sonora auténtica, coherente y perfectamente adaptada al estilo de tu videojuego. Muchos desarrolladores indie ya trabajan así: la IA acelera el proceso creativo, pero la visión final sigue estando en manos del artista.</p>
+    <p>En definitiva, crear música chiptune con IA es una manera revolucionaria de unir nostalgia y tecnología moderna. Sea cual sea tu nivel de experiencia, podrás producir temas memorables que darán identidad sonora a tu juego. La música retro no solo es un homenaje al pasado, sino una herramienta poderosa para construir emociones en cualquier aventura pixel art.</p>
+  `,
+  category: "MÚSICA",
+  author: "Admin",
+  date: "2025-02-18",
+  color: "#C850C0"
+}
 ];
 
-export const CATEGORIES = ['ALL', 'RETRO', 'GODOT', 'PIXEL ART', 'GUÍA'];
+export const CATEGORIES = ['ALL', 'RETRO', 'GODOT', 'PIXEL ART', 'MÚSICA'];
 
 export const GALLERY_IMAGES = [
-  { id: 1, srcId: "image_01", title: 'Explorador', desc: 'Un aventurero con sombrero, mochila y una sonrisa, listo para explorar la naturaleza montañosa.' },
-  { id: 2, srcId: "image_02", title: 'Leñador', desc: 'Un robusto leñador barbudo con hacha, vistiendo gorro rojo y overol en medio del bosque.' },
-  { id: 3, srcId: "image_03", title: 'Granjera', desc: 'Una joven granjera pelirroja con sombrero de paja y overol azul, parada frente a su granero.' },
-  { id: 4, srcId: "image_04", title: 'Piloto', desc: 'Un piloto de carreras con traje rojo y casco, celebrando su victoria con un trofeo dorado.' },
-  { id: 5, srcId: "image_05", title: 'Vaquero', desc: 'Un pistolero del viejo oeste con sombrero, pañuelo rojo y dos revólveres en un paisaje desértico.' },
-  { id: 6, srcId: "image_06", title: 'Cyborg', desc: 'Un personaje futurista con cabello rosa, implantes cibernéticos y katanas, en un oscuro entorno urbano.' },
+  { id: 1, srcId: "gallery_1", title: 'Explorador', desc: 'Un aventurero con sombrero, mochila y una sonrisa, listo para explorar la naturaleza montañosa.' },
+  { id: 2, srcId: "gallery-2", title: 'Leñador', desc: 'Un robusto leñador barbudo con hacha, vistiendo gorro rojo y overol en medio del bosque.' },
+  { id: 3, srcId: "gallery-3", title: 'Granjera', desc: 'Una joven granjera pelirroja con sombrero de paja y overol azul, parada frente a su granero.' },
+  { id: 4, srcId: "gallery-4", title: 'Piloto', desc: 'Un piloto de carreras con traje rojo y casco, celebrando su victoria con un trofeo dorado.' },
+  { id: 5, srcId: "gallery-5", title: 'Vaquero', desc: 'Un pistolero del viejo oeste con sombrero, pañuelo rojo y dos revólveres en un paisaje desértico.' },
+  { id: 6, srcId: "gallery-6", title: 'Cyborg', desc: 'Un personaje futurista con cabello rosa, implantes cibernéticos y katanas, en un oscuro entorno urbano.' },
 ];
 
 export const MUSIC_TRACKS = [

@@ -7,8 +7,6 @@ import Image from "next/image";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import { ArrowLeft, User, Calendar, Heart, Share2 } from "lucide-react";
 import { HpBar } from "@/components/ui/HpBar";
-import { RetroButton } from "@/components/ui/RetroButton";
-import { Textarea } from "@/components/ui/textarea";
 import { AppContext } from "@/context/AppContext";
 
 type BlogPost = {
@@ -113,46 +111,11 @@ export default function BlogPostClient({ post }: BlogPostClientProps) {
             <div className="absolute -top-3 left-6 bg-secondary text-secondary-foreground px-2 font-headline text-[8px]">
               NPC DICE:
             </div>
-            <p className="text-white font-mono italic text-sm pt-2">
+            <div className="text-white font-mono italic text-sm pt-2">
               "Es peligroso ir solo. Toma esto."
-            </p>
+            </div>
           </div>
         </div>
-
-{/*         <div className="bg-card p-6 border-t-4 border-black">
-          <h3 className="text-white font-headline text-xs mb-6">
-            COMENTARIOS (1)
-          </h3>
-          <div className="space-y-4">
-            <div className="flex gap-4 items-start">
-              <div className="w-10 h-10 bg-primary border-2 border-white flex items-center justify-center font-headline text-white text-xs shrink-0">
-                P2
-              </div>
-              <div className="bg-white p-3 flex-1 border-2 border-gray-500 text-black arrow-left">
-                <p className="text-xs font-mono">
-                  ¡Gran artículo! Chrono Trigger sigue siendo el GOAT.
-                </p>
-              </div>
-            </div>
-            <div className="mt-6 flex gap-4 items-start">
-              <div className="w-10 h-10 bg-gray-500 border-2 border-white flex items-center justify-center shrink-0">
-                <User size={20} color="white" />
-              </div>
-              <Textarea
-                className="flex-1 bg-card border-2 border-secondary p-2 text-white font-mono text-xs h-20"
-                placeholder="Escribe tu mensaje..."
-              />
-            </div>
-            <div className="flex justify-end mt-2">
-              <RetroButton
-                variant="primary"
-                onMouseEnter={() => playSfx("hover")}
-              >
-                ENVIAR
-              </RetroButton>
-            </div>
-          </div>
-        </div> */}
       </article>
     </div>
   );
