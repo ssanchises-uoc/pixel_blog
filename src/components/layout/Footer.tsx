@@ -30,7 +30,7 @@ export function Footer() {
                     <div className="border border-white/20 p-6">
                         <h3 className="font-headline text-secondary text-xs mb-4">MISIÓN</h3>
                         <p className="font-mono text-gray-400 text-sm leading-relaxed">
-                            Preservando la estética de los 8 y 16 bits en la web moderna. Un tributo a la era dorada de los videojuegos.
+                            Ser el puente definitivo entre la IA generativa y el desarrollo de juegos retro, ofreciendo los recursos gráficos, el audio y el conocimiento técnico necesarios para crear experiencias de 16-bits profesionales en cualquier motor de juego actual..
                         </p>
                     </div>
 
@@ -51,7 +51,7 @@ export function Footer() {
                         <h3 className="font-headline text-yellow-400 text-xs mb-4">SOCIAL</h3>
                         <div className="flex gap-3">
                             <a href="#" className="w-10 h-10 border-2 border-white/50 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-colors"><Twitter size={20} /></a>
-                            <a href="#" className="w-10 h-10 border-2 border-white/50 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-colors"><Github size={20} /></a>
+                            <a href="https://github.com/ssanchises-uoc/pixel_blog" target="_blank" className="w-10 h-10 border-2 border-white/50 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-colors"><Github size={20} /></a>
                             <a href="/contact" className="w-10 h-10 border-2 border-white/50 flex items-center justify-center text-gray-400 hover:bg-white hover:text-black transition-colors"><Mail size={20} /></a>
                         </div>
                     </div>

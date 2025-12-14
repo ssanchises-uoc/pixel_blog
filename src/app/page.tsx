@@ -37,6 +37,8 @@ export default function Home() {
             </Link>
           </div>
         </div>
+
+        
       </section>
 
       <section className="mb-12">

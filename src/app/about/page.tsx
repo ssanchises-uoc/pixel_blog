@@ -25,7 +25,7 @@ export default function AboutPage() {
                         <div className="mt-auto">
                             <p className="text-gray-500 font-headline text-[8px] mb-2">CONNECT:</p>
                             <div className="flex justify-center gap-4">
-                                <Button variant="ghost" size="icon" asChild><a href="#" aria-label="Github"><Github className="text-gray-400 hover:text-white transition-colors" size={20} /></a></Button>
+                                <Button variant="ghost" size="icon" asChild><a href="https://github.com/ssanchises-uoc/pixel_blog" target='_blank' aria-label="Github"><Github className="text-gray-400 hover:text-white transition-colors" size={20} /></a></Button>
                                 <Button variant="ghost" size="icon" asChild><a href="#" aria-label="LinkedIn"><Linkedin className="text-gray-400 hover:text-[#0077B5] transition-colors" size={20} /></a></Button>
                                 <Button variant="ghost" size="icon" asChild><a href="#" aria-label="Twitter"><Twitter className="text-gray-400 hover:text-[#1DA1F2] transition-colors" size={20} /></a></Button>
                             </div>
